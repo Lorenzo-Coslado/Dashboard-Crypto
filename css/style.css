@@ -1,0 +1,181 @@
+body {
+  background-color: #363636;
+  font-family: "euclid", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #f5efef;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+header {
+  background-color: #0808089f;
+  border-radius: 10px;
+  text-align: center;
+  width: 1920px;
+  height: 100px;
+}
+
+#data_crypto {
+  background-color: #363636;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+#crypto1 {
+  background-color: #0808089f;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#crypto2 {
+  background-color: #0808089f;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 55px;
+}
+
+#crypto3 {
+  background-color: #0808089f;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 55px;
+}
+
+#crypto4 {
+  background-color: #0808089f;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: 55px;
+}
+
+#side {
+  background-color: #151515;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 30%;
+}
+
+#crypto {
+  display: flex;
+  flex-direction: row;
+}
+
+#date {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 40px;
+  font: bold;
+  font-size: 30px;
+}
+.percentage {
+  text-align: left;
+  font: bold;
+  margin-left: 30px;
+}
+.logoCrypto {
+  width: 50px;
+  height: 50px;
+  align-items: center;
+}
+
+.contnairLogo {
+  background-color: #363636;
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.cryptoName {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 20px;
+
+  margin-top: 10px;
+}
+.price {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -10px;
+}
+.percentage {
+  text-align: left;
+  margin-left: 40px;
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+#graph {
+  background-color: #0808089f;
+  border-radius: 10px;
+  width: 1200px;
+  height: 500px;
+  height: 50%;
+  width: 92.5%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+#wave {
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 1100px;
+  height: 400px;
+  border-radius: 10px;
+}
