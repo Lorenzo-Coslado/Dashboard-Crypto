@@ -10,7 +10,7 @@ app.use(cors());
 let cryptoData = null;
 
 cron.schedule("*/60 * * * *", () => {
-  const apiKey = "1f00344b-6066-4ca7-8f33-d85d80bac674";
+  const apiKey = "";
   const symbols = "BTC,ETH,ATOM,TIA";
   const url = `https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=${symbols}&CMC_PRO_API_KEY=${apiKey}`;
 
